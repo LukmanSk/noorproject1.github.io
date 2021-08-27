@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+header .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+header .navigation .logo img {
+  font-size: 2rem;
+}
+header .navigation .toggle_bar i {
+  font-size: 2.8rem;
+}
+
+main .psce_container {
+  display: flex;
+  margin: 10rem 0;
+}
+main .psce_container .box {
+  padding: 5rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .psce_container #box1 .img {
+  height: 51rem;
+  width: 51rem;
+  background: url(/dummyImg/img1.jpg) no-repeat center center/cover;
+  background-size: 100% 100%;
+  border: 5px solid #adcce9;
+  position: relative;
+  border-radius: 50%;
+}
+main .psce_container #box1 .img .before_img {
+  position: absolute;
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  border: 5rem solid #dab9a6;
+  left: 31rem;
+  top: -12rem;
+  z-index: -1;
+}
+main .psce_container #box1 .img .after_img {
+  position: absolute;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  border: 1.5rem solid #dab9a6;
+  background: url(/dummyImg/img2.jpg) no-repeat center center/cover;
+  background-size: 100% 100%;
+  top: 36rem;
+  left: 31rem;
+}/*# sourceMappingURL=main2.css.map */
